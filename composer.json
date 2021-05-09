@@ -1,10 +1,7 @@
 {
-  "name": "easyswoole/robot",
-  "type": "library",
-  "description": "php stander lib",
-  "keywords" : ["swoole", "framework", "async","easyswoole"],
-  "homepage" : "https://www.easyswoole.com/",
-  "license" : "Apache-2.0",
+  "name": "margaritac/robot",
+  "description": "Multi exception package",
+  "license": "proprietary",
   "authors": [
     {
       "name": "kk",
