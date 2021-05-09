@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "EasySwoole\\Jwt\\": "src/"
+      "EasySwoole\\Robot\\": "src/"
     }
   }
 }
