@@ -14,7 +14,6 @@ class Robot
 
     public function start($arr,$url,$accessToken)
     {
-
         $vo = [
             'account_id'=>'123321',
             'currency'=>'bian',
