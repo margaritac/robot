@@ -30,7 +30,6 @@ class Robot
 
     public function setWithArgs($vo,$state,$url,$accessToken)
     {
-
         $times = $vo['sub_type']??$vo['times'] ;
         if($times<1) {
             $times =1 ;
