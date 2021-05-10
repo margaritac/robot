@@ -1,7 +1,10 @@
 {
   "name": "margaritac/robot",
-  "description": "Multi exception package",
-  "license": "proprietary",
+  "type": "library",
+  "description": "php stander lib",
+  "keywords" : ["swoole", "framework", "async","easyswoole"],
+  "homepage" : "https://www.easyswoole.com/",
+  "license" : "Apache-2.0",
   "authors": [
     {
       "name": "kk",
@@ -9,11 +12,20 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "easyswoole/phpunit": "^1.0"
   },
   "autoload": {
     "psr-4": {
       "EasySwoole\\Robot\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EasySwoole\\Robot\\Tests\\": "tests/"
     }
   }
 }
